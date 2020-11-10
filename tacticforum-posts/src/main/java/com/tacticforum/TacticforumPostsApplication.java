@@ -1,13 +1,13 @@
-package com.tacticforum.users;
+package com.tacticforum;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TacticforumUsersApplication {
+public class TacticforumPostsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TacticforumUsersApplication.class, args);
+		SpringApplication.run(TacticforumPostsApplication.class, args);
 	}
 
 }
