@@ -63,15 +63,15 @@ public class Post {
 	}
 	
 	// ------------------------------------------------------------ COMMENTS 
-	public HashSet<Integer> getComment() {
+	public HashSet<Integer> getVisits() {
 		if (this.comments == null) {
 			this.comments = new HashSet<>();
 		}
 		return this.comments;
 	}
 
-	public void addComment(Integer comment) {
-		getComment().add(comment);
+	public void addVisit(Integer comments) {
+		getVisits().add(comments);
 	}
 	
 	// ------------------------------------------------------------ USERID 

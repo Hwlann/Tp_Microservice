@@ -70,9 +70,9 @@ public class PostController extends Post{
 	public void addVisitToPet(@PathVariable("postId") Integer postId, @RequestParam("commentId") Integer commentId) {
 		Optional<Post> postOpt = posts.findById(postId);
 		if (postOpt.isPresent()) {
-			Post pet = postOpt.get();
-			pet.addVisit(commentId);
-			posts.save(pet);
+			Post post = postOpt.get();
+			post.addComment(commentId);
+			posts.save(post);
 		}
 
 	}
