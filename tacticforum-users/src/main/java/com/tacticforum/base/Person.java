@@ -1,25 +1,20 @@
 package com.tacticforum.base;
 
 import javax.validation.constraints.NotEmpty;
-import javax.persistence.Column;
-import javax.persistence.MappedSuperclass;
 
-@MappedSuperclass
 public class Person extends BaseEntity {
 
 	/**
 	 * 
 	 */
-	
-	@Column(name = "pseudo")
+	private static final long serialVersionUID = -4186900565629151337L;
+
 	@NotEmpty
 	private String pseudo;
 
-	@Column(name = "email")
 	@NotEmpty
 	private String email;
 	
-	@Column(name = "password")
 	@NotEmpty
 	private String password;
 
