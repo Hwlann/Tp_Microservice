@@ -1,4 +1,4 @@
-package com.tacticforum.topics;
+package src.test.java.com.tacticforum.comments;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.tacticforum.base;
+package src.main.java.com.tacticforum.base;
 
 import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;

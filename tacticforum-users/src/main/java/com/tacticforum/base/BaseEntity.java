@@ -1,4 +1,4 @@
-package com.tacticforum.base;
+package src.main.java.com.tacticforum.base;
 
 import java.io.Serializable;
 import javax.persistence.GeneratedValue;
