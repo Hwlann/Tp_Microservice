@@ -1,12 +1,8 @@
 package com.tacticforum.base;
 
-import javax.persistence.Column;
-import javax.persistence.MappedSuperclass;
-
-@MappedSuperclass
 public class NamedEntity extends BaseEntity {
 
-	@Column(name = "name")
+	private static final long serialVersionUID = 2446188756314477812L;
 	private String name;
 
 	public String getName() {
@@ -20,5 +16,5 @@ public class NamedEntity extends BaseEntity {
 	@Override
 	public String toString() {
 		return this.getName();
-	}	
+	}
 }
